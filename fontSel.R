@@ -41,3 +41,7 @@ fontSel <- function(){
 #このサイトで対症療法が載っている。
 #https://walkintheforest.net/rstudio-editor-japanese/
 #なんか更新されないなあ
+
+
+#source("http://cse.fra.affrc.go.jp/shirakawa/R/fontSel_ver1.R", encoding="UTF-8")
+source("https://raw.githubusercontent.com/dipperGit/fontSel/br1_fontSel/fontSel.R", encoding="UTF-8")
