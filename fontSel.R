@@ -40,3 +40,4 @@ fontSel <- function(){
 #っていうか、macのRstudioって日本語入力の頭がおかしいよね...
 #このサイトで対症療法が載っている。
 #https://walkintheforest.net/rstudio-editor-japanese/
+#なんか更新されないなあ
