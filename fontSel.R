@@ -34,3 +34,4 @@ fontSel <- function(){
   }
   
 }#おわりんこ
+#puch 20220324_15:44
