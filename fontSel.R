@@ -5,6 +5,11 @@ fontSel <- function(){
   #OS名を認識して、mac/winでそれそれフォントを指定する
   #使えるフォントはnames(quartzFonts())で確認(macのみ)。フォントはPC依存。
   
+  #以下からダウンロードできる。
+  #source("http://cse.fra.affrc.go.jp/shirakawa/R/fontSel_ver1.R", encoding="UTF-8")
+  #source("https://raw.githubusercontent.com/dipperGit/fontSel/br1_fontSel/fontSel.R", encoding="UTF-8")
+  
+  
   if(grepl("macOS", sessionInfo()$running) == TRUE){
     #Macの場合
     #fontregisterer関数がインストール済みか確認
@@ -32,7 +37,7 @@ fontSel <- function(){
     fontA <<- "MEI" 
     cat("windows11のGUIは8以来のマジギレ案件。Windowsユーザーは強く生きて。\n")
   }
-  
+
 }#おわりんこ
 #puch 20220324_15:44
 
@@ -43,5 +48,3 @@ fontSel <- function(){
 #なんか更新されないなあ
 
 
-#source("http://cse.fra.affrc.go.jp/shirakawa/R/fontSel_ver1.R", encoding="UTF-8")
-source("https://raw.githubusercontent.com/dipperGit/fontSel/br1_fontSel/fontSel.R", encoding="UTF-8")
