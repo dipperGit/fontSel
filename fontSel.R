@@ -5,7 +5,7 @@ fontSel <- function(){
   #OS名を認識して、mac/winでそれそれフォントを指定する
   #使えるフォントはnames(quartzFonts())で確認(macのみ)。フォントはPC依存。
   
-  #以下からダウンロードできる。
+  #以下から使えるようにできる。
   #source("http://cse.fra.affrc.go.jp/shirakawa/R/fontSel_ver1.R", encoding="UTF-8")
   #source("https://raw.githubusercontent.com/dipperGit/fontSel/br1_fontSel/fontSel.R", encoding="UTF-8")
   
